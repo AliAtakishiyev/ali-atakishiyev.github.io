@@ -1,0 +1,55 @@
+body{
+    background-image: url("bg3.jpg"); 
+    background-repeat:no-repeat;    
+    background-position:center center ;   
+    background-attachment: fixed;    
+    background-size: cover;  
+}
+
+.text{
+    color: white;
+}
+
+.blogheader{
+    text-align: center;
+    padding: 10px;
+    font-family: monospace;
+    font-size: 40px;
+}
+
+.blogtext{
+    padding: 0px 10px;
+    font-family:arial;
+    font-size: 13pt;
+}
+
+.date{
+    text-align: center;
+    font-family:arial;
+    color: black;
+    padding: 10px;
+}
+
+.back{
+    list-style-type:none;
+    padding-left: 0px;
+    font-family: sans-serif;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 40px;
+    
+}
+
+.back li a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    box-sizing: border-box;
+    width: 100%;
+    border: solid black 2px;
+    padding: 5px 15px;
+}
+
+.back li a:hover{
+    color: #00abc9;
+}
